@@ -1,0 +1,39 @@
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+}
+header {
+  text-align: center;
+  color: #DEAD58;
+  font-family: 'Inconsolata', monospace;
+  margin-top: -5px
+}
+main {
+  text-align: center;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  color: #DEAD58;
+  font-family: 'Inconsolata', monospace;
+}
+.box {
+  background-color: rgba( 30, 142, 255, 0.2);
+  padding: 60px;
+  margin-top: 77px;
+  margin: auto;
+}
+#lyric {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 34px;
+}
+.submit {
+  margin-top: 5px;
+  padding: 6px 20px 6px 20px;
+  border-radius: 15px;
+  outline: none;
+}
+img {
+  max-width: 90%;
+}

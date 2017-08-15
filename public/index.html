@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Radom Text Generator </title>
+    <title> Bye Hatersssss </title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Inconsolata" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
     <script src="script.js" charset="utf-8"></script>
@@ -9,14 +10,17 @@
   <body ng-app="lyricApp" ng-controller="lyricController">
     <header>
       <h1> So you have a hater and gotta respond back to them? </h1>
-      <h3> Click the button below for some ideas! </h3>
+      <h3>Click the button below for some ideas!</h3>
     </header>
     <main>
-      <fieldset>
-      <legend>  Respond to them with: </legend>
-        <p> {{ lyric }} </p>
-      </fieldset>
-      <button ng-click="getLyric()" type="button" class="submit"> Click Me </button>
+      <div class="box">
+        <img src={{lyric.img}}>
+        <fieldset>
+          <legend>  Respond to them with: </legend>
+            <p id="lyric"> <b> {{ lyric.quote }} </b> </p>
+        </fieldset>
+      </div>
+      <button ng-click="getLyric()" type="button" class="submit"> Click Here </button>
     </main>
   </body>
 </html>
